@@ -1,11 +1,11 @@
 body {
-    /* margin: 0 auto; */
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 100vw;
-    height: 100vh;
+    width: 100%;
+    height: 100%;
     font-family: sans-serif;
+    padding: 0 10px;
 }
 
 p {
@@ -38,6 +38,11 @@ h1 {
     color: rgb(34,34,34);
 }
 
+.content-wrapper {
+    margin: 0 auto;
+    max-width: 768px;
+}
+
 ul {
     list-style: none;
     margin: 0 auto;
@@ -45,8 +50,7 @@ ul {
     display: flex;
     flex-direction: column;
     align-content: space-around;
-    align-items: center;
-    width: 100%;
+    align-items: flex-start;
 }
 
 .post {
@@ -93,6 +97,10 @@ ul {
 @media (max-width: 768px) {
     h1 {
         max-width: 300px;
+    }
+
+    .content-wrapper {
+        max-width: 400px;
     }
 
     .post {
