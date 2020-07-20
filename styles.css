@@ -17,16 +17,7 @@ body > p {
     font-style: italic;
     position: relative;
     padding-left: 10px;
-}
-
-body > p::before {
-    position: absolute;
-    content: "";
-    bottom: -13px;
-    left: 0;
-    width: 2px;
-    height: 40px;
-    background-color: black;
+    border-left: 2px solid black;
 }
 
 .link__vk {
