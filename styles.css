@@ -13,10 +13,11 @@ p {
 }
 
 body > p {
+    
     font-size: 19px;
     font-style: italic;
     position: relative;
-    padding-left: 10px;
+    padding: 10px;
     border-left: 2px solid black;
 }
 
